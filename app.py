@@ -6,7 +6,7 @@ import functools
 
 app = Flask(__name__)
 app.config.from_mapping(
-    SECRET_KEY='dev'
+    SECRET_KEY='justwanttochange'
 )
 
 @app.route('/init')
